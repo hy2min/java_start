@@ -12,9 +12,9 @@ public class ArrayDi2 {
         arr[1][2] = 6; //1행, 2열
 
         for (int row = 0; row < 2; row++) {
-            System.out.print(arr[row][0]+ " "); //0열 촐력
-            System.out.print(arr[row][1]+ " "); //1열 출력
-            System.out.print(arr[row][2]+ " "); //2열 출력
+            for (int column = 0; column < 3; column++) {
+                System.out.print(arr[row][column]+ " "); //0열 촐력
+            }
             System.out.println(); //한 행이 끝나면 라인을 변경하다.
 
         }
